@@ -1,0 +1,19 @@
+.form_add_task {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	text-align: start;
+}
+.form_add_task label {
+	font-size: 1.5rem;
+}
+.form_add_task div {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.form_add_task input,
+.form_add_task button {
+	padding: 8px;
+	border-radius: 2px;
+}

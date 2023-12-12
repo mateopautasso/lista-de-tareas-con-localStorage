@@ -1,0 +1,32 @@
+.main_container {
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+}
+.swap_container {
+	width: 100%;
+	display: flex;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+}
+.swap_container::-webkit-scrollbar {
+	display: none;
+}
+.swap_card {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	scroll-snap-align: start;
+	min-width: 100%;
+}
+.button_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-block: 8px;
+}
+.button_container button {
+	padding-inline: 12px;
+	padding-top: 5px;
+	font-size: 2rem;
+}

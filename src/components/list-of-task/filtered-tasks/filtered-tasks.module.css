@@ -1,0 +1,22 @@
+.section {
+	display: flex;
+	flex-direction: column;
+	text-align: start;
+	gap: 24px;
+}
+.section div {
+	display: flex;
+	flex-direction: column;
+	text-align: start;
+	gap: 4px;
+}
+.section form {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	text-align: start;
+}
+.section form input {
+	padding: 8px;
+	border-radius: 2px;
+}

@@ -1,0 +1,39 @@
+.li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	padding: 8px;
+	background-color: #474747;
+	border-radius: 2px;
+}
+.li p {
+	margin-left: 6px;
+	font-size: 1.4rem;
+}
+.li button {
+	font-size: 1.4rem;
+	padding: 2px;
+}
+.li input {
+	padding: 4px;
+	max-width: 90%;
+	border-radius: 2px;
+}
+
+.li form {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.li .task__options {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	gap: 4px;
+}
+
+.li div button:nth-child(1) {
+	padding-inline: 6px;
+}
